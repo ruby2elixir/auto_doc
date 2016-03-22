@@ -25,7 +25,7 @@ defmodule AutoDoc.Mixfile do
 
   defp deps do
     [{:plug, "~> 1.0"},
-    {:poison, "~> 1.5"},
+    {:poison, "~>2.0"},
 
     # Docs dependencies
     {:earmark, "~> 0.1", only: :docs},
